@@ -14,7 +14,9 @@ AndroidMainfest.xml에 추가하기
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     ...
+
 </manifest>
 ````
 
