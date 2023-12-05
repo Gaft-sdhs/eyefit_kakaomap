@@ -4,6 +4,20 @@
 ## 기본 셋팅 참고 링크
 https://apis.map.kakao.com/android/guide/
 
+## 권한
+AndroidMainfest.xml에 추가하기
+````xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    ...
+</manifest>
+````
+
 ## gradle
 kakaomap를 사용하기 위해 gradle에 추가해야하는것
 - implementation files('libs/libDaumMapAndroid.jar')
